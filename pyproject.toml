@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sacc"
+version = "1.0.0"
+description = "a statistical probability based audio classifier"
+authors = ["baileydayson <b.p.dayson@edu.salford.ac.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+streamlit = "^1.32.2"
+librosa = "^0.10.1"
+scipy = "^1.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
